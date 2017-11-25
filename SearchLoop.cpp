@@ -7,12 +7,12 @@ int main(){
 unsigned num = 0;
 char sec;
 
-cout << "Introduzca un número DISTINTO DE CERO";
+cout << "Introduzca un nÃºmero DISTINTO DE CERO";
 while(num == 0){
     cin >> num;
 }
 
-cout << "Introduzca una secuencia de números FINALIZANDO EN CERO";
+cout << "Introduzca una secuencia de nÃºmeros FINALIZANDO EN CERO";
 cout << num;
 cin.get(sec);
 cout << sec;
