@@ -1,5 +1,5 @@
 /************************************************************************
-* Title: Tragaperras amañada                                            *
+* Title: Tragaperras amaÃ±ada                                            *
 * Version: 2.0                                                          *
 * Date: 5/11/2017                                                       *
 * Purpose: Rigged game, no special purpose but getting user mad.        *
