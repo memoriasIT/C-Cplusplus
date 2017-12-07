@@ -7,7 +7,7 @@ int main() {
 bool interruptor;
 
 /*
-CONVERSIONES AUTOM¡TICAS A VARIABLES M¡S GRANDES
+CONVERSIONES AUTOM√ÅTICAS A VARIABLES M√ÅS GRANDES
 ------------------------------------------------
 char, short, enum
 int
@@ -23,9 +23,9 @@ interruptor = false; // se puede usar true/false o un numero 0/<0
 cin >> interruptor;
 
 if (interruptor) {
-    cout << "El interruptor est· encendido" << endl;
+    cout << "El interruptor est√° encendido" << endl;
 } else {
-    cout << "El interruptor est· apagado" << endl;
+    cout << "El interruptor est√° apagado" << endl;
 }
 
 char a = 'a'; //Char se puede poner como letra o numero
@@ -57,7 +57,7 @@ real += entero;
 
 
 
-cout << sizeof(encendido) << endl; // TamaÒo en memoria
+cout << sizeof(encendido) << endl; // Tama√±o en memoria
 
 
 /*
