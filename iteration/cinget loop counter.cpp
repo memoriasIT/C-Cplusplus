@@ -1,6 +1,6 @@
 /*
-Confecciona un bucle que lea de teclado un texto carácter a carácter hasta localizar un punto, y
-que al final dé como salida el número de comas encontradas, y el número de caracteres leídos.
+Confecciona un bucle que lea de teclado un texto carÃ¡cter a carÃ¡cter hasta localizar un punto, y
+que al final dÃ© como salida el nÃºmero de comas encontradas, y el nÃºmero de caracteres leÃ­dos.
 */
 
 #include <iostream>
@@ -23,7 +23,7 @@ int main() {
 	        }
     }
 
-    cout << "Número de comas: " << ncom << "    Número de carácteres totales: "<< ncar+ncom;
+    cout << "NÃºmero de comas: " << ncom << "    NÃºmero de carÃ¡cteres totales: "<< ncar+ncom;
 	return 0;
 }
 
