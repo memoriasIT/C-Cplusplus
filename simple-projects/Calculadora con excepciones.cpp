@@ -4,12 +4,12 @@ int main()
 {
  char operador;
  int operando1,operando2;
- cout << "Introduzca la operaci髇 a realizar (+,-,*,/) (& para terminar): ";
+ cout << "Introduzca la operaci贸n a realizar (+,-,*,/) (& para terminar): ";
  cin >> operador;
  while (operador != '&'){
  if ((operador != '+') && (operador != '-') &&
  (operador != '*') && (operador != '/')){
- throw "ERROR: operaci髇 no valida";
+ throw "ERROR: operaci贸n no valida";
  }else{
  cout << "Introduzca operando1: ";
  cin >> operando1;
@@ -26,7 +26,7 @@ int main()
  cout << "El resultado es: " << operando1 * operando2 << endl;
  break;
  case '/' : if (operando2 == 0){
- throw "ERROR: no es posible la divisi髇 por cero";
+ throw "ERROR: no es posible la divisi贸n por cero";
  }else{
  cout << "El resultado es: " << operando1 /
 operando2 << endl;
@@ -34,7 +34,7 @@ operando2 << endl;
 break;
  }
  }
- cout << "Introduzca la operaci髇 a realizar (+,-,*,/) (& para terminar): ";
+ cout << "Introduzca la operaci贸n a realizar (+,-,*,/) (& para terminar): ";
  cin >> operador;
  }
  cout << "FIN DEL PROGRAMA" << endl;
