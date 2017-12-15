@@ -1,24 +1,24 @@
 #include <iostream>
 using namespace std;
 
-//Los alumnos de informática desean celebrar una comida un día del presente mes en el que
-//puedan acudir todos. Se pide realizar un algoritmo que recoja de cada alumno los días que le
-//vendría bien ir a la comida, e imprima las fechas concordantes para todos los alumnos. Los
-//datos se introducirán por teclado. Primero se introducirá el número de alumnos que
-//intervienen. Después, por cada alumno se introducirá una única línea con los números de los
-//días libres separados por espacios (un 0 para terminar).
+//Los alumnos de informÃ¡tica desean celebrar una comida un dÃ­a del presente mes en el que
+//puedan acudir todos. Se pide realizar un algoritmo que recoja de cada alumno los dÃ­as que le
+//vendrÃ­a bien ir a la comida, e imprima las fechas concordantes para todos los alumnos. Los
+//datos se introducirÃ¡n por teclado. Primero se introducirÃ¡ el nÃºmero de alumnos que
+//intervienen. DespuÃ©s, por cada alumno se introducirÃ¡ una Ãºnica lÃ­nea con los nÃºmeros de los
+//dÃ­as libres separados por espacios (un 0 para terminar).
 
 
 //OBJETIVOS:
-//-* Recoger días que le vienen bien
+//-* Recoger dÃ­as que le vienen bien
 //-* Imprimir fechas concordantes para TODOS los alumnos
 //-* Datos introducidos por teclado
 //    -* Primero pedir numero de alumnos que intervienen
-//    -* Se introducen los días posibles
+//    -* Se introducen los dÃ­as posibles
 
 // ----- CONSTANTES Y REGISTROS ----- //
-const int MAX = 31+1; //Tamaño del array
-typedef int TFrec [MAX]; // Declarar el array de tamaño "MAX"
+const int MAX = 31+1; //TamaÃ±o del array
+typedef int TFrec [MAX]; // Declarar el array de tamaÃ±o "MAX"
 
 // ----- FUNCIONES Y PROCEDIMIENTOS ----- //
 void Pedirdatos(int& numalumnos, int frec[MAX]);
