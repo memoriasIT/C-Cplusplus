@@ -21,8 +21,8 @@ const int MAX = 31+1; //Tamaño del array
 typedef int TFrec [MAX]; // Declarar el array de tamaño "MAX"
 
 // ----- FUNCIONES Y PROCEDIMIENTOS ----- //
-void Pedirdatos(int& numalumnos, int frec[MAX]);
-void Imprimir(int frec[MAX], int numalumnos);
+void Pedirdatos(int& numalumnos, TFrec& frec);
+void Imprimir(TFrec frec, int numalumnos);
 
 // ----- FUNCION PRINCIPAL ----- //
 int main(){
@@ -34,7 +34,7 @@ int main(){
     Imprimir(frec, numalumnos);
 }
 
-void Pedirdatos(int& numalumnos, int frec[MAX]){
+void Pedirdatos(int& numalumnos, TFrec& frec){
     unsigned dia, cont = 0;
     cout << "Introduzca numero de alumnos que intervienen: ";
     do{
@@ -58,7 +58,7 @@ void Pedirdatos(int& numalumnos, int frec[MAX]){
     cout << "\n\n";
 }
 
-void Imprimir(int frec[MAX], int numalumnos){
+void Imprimir(TFrec frec, int numalumnos){
     int maximo;
     bool noganador = true;
     
