@@ -43,7 +43,6 @@ void Pedirdatos(int& numalumnos, TFrec& frec){
 
     cout << "Introduzca dias que podria acudir acabando en 0.\n";
     cout << "--- ALUMNO " << cont+1 << " ---\n";
-//    cin >> dia;
     while (cont != numalumnos){
         cin >> dia;
         frec[dia]++;
