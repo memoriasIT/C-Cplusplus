@@ -59,7 +59,6 @@ void Pedirdatos(int& numalumnos, TFrec& frec){
 }
 
 void Imprimir(TFrec frec, int numalumnos){
-    int maximo;
     bool noganador = true;
     
     cout << "Los resultados de la encuesta fueron los siguientes: \n";
