@@ -60,15 +60,20 @@ void Pedirdatos(int& numalumnos, int frec[MAX]){
 
 void Imprimir(int frec[MAX], int numalumnos){
     int maximo;
-
+    bool noganador = true;
+    
     cout << "Los resultados de la encuesta fueron los siguientes: \n";
     for (int i = MAX - 1; i > 0; i--){ //Printing array
         if (frec[i] != 0){
             cout << "Dia " << i << " :  "<< frec[i]<<endl;
             if (frec[i] == numalumnos){
                 cout << "** POSIBLE GANADOR **\n";
+                noganador = false;
             }
         }
-
+    
+    }
+    if (noganador == true){
+        cout << "No existe dia posible para TODOS los alumnos.";
     }
 }
