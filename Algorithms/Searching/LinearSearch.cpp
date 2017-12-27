@@ -2,8 +2,8 @@
 using namespace std;
 
 
-//Diseña una función que recibe como parámetros de entrada un array de números enteros a y un
-//número entero num, y devuelve true si el número num está contenido en a, y false en otro
+//DiseÃ±a una funciÃ³n que recibe como parÃ¡metros de entrada un array de nÃºmeros enteros a y un
+//nÃºmero entero num, y devuelve true si el nÃºmero num estÃ¡ contenido en a, y false en otro
 //caso.
 
 
@@ -36,7 +36,7 @@ int main (){
 // ----- PEDIR DATOS ---- //
 void Pedirdatos(TDatos& Datos){
     for (int i = 0; i < MAX; i++){
-        cout << "Introduce valor para la posición " << i << endl;
+        cout << "Introduce valor para la posiciÃ³n " << i << endl;
         cin >> Datos.ArrayDatos[i];
     }
     cout << "Introduce valor a buscar";
