@@ -1,13 +1,13 @@
-//Escriba un programa que efectúe la conversión de un número natural en base 10 a otra
-//determinada base, sabiendo que el resultado no sobrepasará los 50 dígitos. El usuario introducirá
-//primero el número en base 10 y después la base a la que convertirlo (el programa debe
+//Escriba un programa que efectÃºe la conversiÃ³n de un nÃºmero natural en base 10 a otra
+//determinada base, sabiendo que el resultado no sobrepasarÃ¡ los 50 dÃ­gitos. El usuario introducirÃ¡
+//primero el nÃºmero en base 10 y despuÃ©s la base a la que convertirlo (el programa debe
 //asegurarse de que la base no sea ni menor de 2 ni mayor de 9)
 //
-//Nota: Recordemos que para obtener la representación en una base b de un número en
-//decimal, dividimos entre b primero el número y después sucesivamente los diferentes
+//Nota: Recordemos que para obtener la representaciÃ³n en una base b de un nÃºmero en
+//decimal, dividimos entre b primero el nÃºmero y despuÃ©s sucesivamente los diferentes
 //cocientes que se vayan obteniendo hasta que el cociente sea cero. Los diferentes restos
-//obtenidos en esas sucesivas divisiones constituyen la representación en dicha base b (pero
-//en orden inverso a como se han ido calculando). Por ejemplo, para el número decimal 26 en
+//obtenidos en esas sucesivas divisiones constituyen la representaciÃ³n en dicha base b (pero
+//en orden inverso a como se han ido calculando). Por ejemplo, para el nÃºmero decimal 26 en
 //base 2 es 11010.
 //26 | 2
 // 0  13 | 2
