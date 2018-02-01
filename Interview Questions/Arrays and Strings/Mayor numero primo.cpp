@@ -1,17 +1,17 @@
 
-//Diseña una función mayorPrimo que recibe como parámetro un array de tamaño
-//TAM (una constante definida) relleno de números naturales y devuelve el mayor
-//número primo almacenado. En caso de que no haya números primos, la función
-//devolverá el valor 0. Nota: el número 1 no se considera primo.
-//Importante: No debes modificar el código ya proporcionado en el campus
-//virtual (ejercicio1.cpp) para probar la función. Debes completar el código de
-//la función mayorPrimo. Si para su diseño necesitas más procedimientos o
-//funciones, puedes añadirlos. Si el código no funciona correctamente la
-//puntuación de este problema será de 0 puntos.
-//La ejecución del código suministrado una vez diseñada la función mayorPrimo
-//mostrará por pantalla lo siguiente:
+//DiseÃ±a una funciÃ³n mayorPrimo que recibe como parÃ¡metro un array de tamaÃ±o
+//TAM (una constante definida) relleno de nÃºmeros naturales y devuelve el mayor
+//nÃºmero primo almacenado. En caso de que no haya nÃºmeros primos, la funciÃ³n
+//devolverÃ¡ el valor 0. Nota: el nÃºmero 1 no se considera primo.
+//Importante: No debes modificar el cÃ³digo ya proporcionado en el campus
+//virtual (ejercicio1.cpp) para probar la funciÃ³n. Debes completar el cÃ³digo de
+//la funciÃ³n mayorPrimo. Si para su diseÃ±o necesitas mÃ¡s procedimientos o
+//funciones, puedes aÃ±adirlos. Si el cÃ³digo no funciona correctamente la
+//puntuaciÃ³n de este problema serÃ¡ de 0 puntos.
+//La ejecuciÃ³n del cÃ³digo suministrado una vez diseÃ±ada la funciÃ³n mayorPrimo
+//mostrarÃ¡ por pantalla lo siguiente:
 //El contenido del array 1 de prueba es: 6 4 12 0 8 9 46 15 21 12
-//En el array no hay ningún primo
+//En el array no hay ningÃºn primo
 //El contenido del array 2 de prueba
 
 #include <iostream>
